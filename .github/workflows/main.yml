@@ -1,0 +1,37 @@
+name: Update Latest ZerodhaStrikesAllowedToTrade
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron:  '30 2 * * 1-5'
+    - cron:  '30 14 * * 1-5'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env: 
+      CI_COMMIT_MESSAGE: Updated Latest ZerodhaStrikesAllowedToTrade Json File
+      CI_COMMIT_AUTHOR: DrJuneMoone
+    steps:
+    - uses: actions/checkout@v3
+    # Build steps
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10.x'
+    - run: python --version
+    - run: pip install -r requirements.txt
+    - run: python main.py
+      
+    # Commit and push all changed files.
+    - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
+      # Only run on main branch push (e.g. after pull request merge).
+      if: contains(fromJson('["schedule", "push", "pull_request"]'), github.event_name)
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email "MooneDrJune@users.noreply.github.com"
+        git add --all
+        git commit --all -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
