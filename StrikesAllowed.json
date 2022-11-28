@@ -1,0 +1,86 @@
+{
+    "BankNifty": {
+        "Current Week": {
+            "NRML": {
+                "from": 42900.0,
+                "to": 43100.0
+            },
+            "MIS": "All Strikes Allowed"
+        },
+        "Next Week": {
+            "NRML": {
+                "from": 42900.0,
+                "to": 43100.0
+            },
+            "MIS": {
+                "from": 38800.0,
+                "to": 47300.0
+            }
+        },
+        "Current Month": {
+            "NRML": {
+                "from": 42900.0,
+                "to": 43100.0
+            },
+            "MIS": {
+                "from": 38800.0,
+                "to": 47300.0
+            }
+        }
+    },
+    "Nifty": {
+        "Current Week": {
+            "NRML": {
+                "from": 18300.0,
+                "to": 18800.0
+            },
+            "MIS": "All Strikes Allowed"
+        },
+        "Next Week": {
+            "NRML": {
+                "from": 18300.0,
+                "to": 18800.0
+            },
+            "MIS": {
+                "from": 16750.0,
+                "to": 20400.0
+            }
+        },
+        "Next Month": {
+            "NRML": {
+                "from": 18300.0,
+                "to": 18800.0
+            },
+            "MIS": {
+                "from": 16750.0,
+                "to": 20400.0
+            }
+        }
+    },
+    "FinNifty": {
+        "Current Week": {
+            "NRML": "All Strikes Allowed",
+            "MIS": "All Strikes Allowed"
+        },
+        "Next Week": {
+            "NRML": {
+                "from": 19100.0,
+                "to": 19400.0
+            },
+            "MIS": {
+                "from": 19100.0,
+                "to": 19400.0
+            }
+        },
+        "Current Month": {
+            "NRML": {
+                "from": 19100.0,
+                "to": 19400.0
+            },
+            "MIS": {
+                "from": 19100.0,
+                "to": 19400.0
+            }
+        }
+    }
+}
