@@ -3,14 +3,14 @@
         "Current Week": {
             "NRML": {
                 "from": 42900.0,
-                "to": 43100.0
+                "to": 43200.0
             },
             "MIS": "All Strikes Allowed"
         },
         "Next Week": {
             "NRML": {
                 "from": 42900.0,
-                "to": 43100.0
+                "to": 43200.0
             },
             "MIS": {
                 "from": 38800.0,
@@ -20,7 +20,7 @@
         "Current Month": {
             "NRML": {
                 "from": 42900.0,
-                "to": 43100.0
+                "to": 43200.0
             },
             "MIS": {
                 "from": 38800.0,
@@ -31,36 +31,42 @@
     "Nifty": {
         "Current Week": {
             "NRML": {
-                "from": 18300.0,
-                "to": 18800.0
+                "from": 18350.0,
+                "to": 18850.0
             },
             "MIS": "All Strikes Allowed"
         },
         "Next Week": {
             "NRML": {
-                "from": 18300.0,
-                "to": 18800.0
+                "from": 18350.0,
+                "to": 18850.0
             },
             "MIS": {
-                "from": 16750.0,
-                "to": 20400.0
+                "from": 16800.0,
+                "to": 20450.0
             }
         },
         "Next Month": {
             "NRML": {
-                "from": 18300.0,
-                "to": 18800.0
+                "from": 18350.0,
+                "to": 18850.0
             },
             "MIS": {
-                "from": 16750.0,
-                "to": 20400.0
+                "from": 16800.0,
+                "to": 20450.0
             }
         }
     },
     "FinNifty": {
         "Current Week": {
-            "NRML": "All Strikes Allowed",
-            "MIS": "All Strikes Allowed"
+            "NRML": {
+                "from": 19100.0,
+                "to": 19400.0
+            },
+            "MIS": {
+                "from": 19100.0,
+                "to": 19400.0
+            }
         },
         "Next Week": {
             "NRML": {
