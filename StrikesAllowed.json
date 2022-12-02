@@ -1,7 +1,10 @@
 {
     "BankNifty": {
         "Current Week": {
-            "NRML": "All Strikes Allowed ",
+            "NRML": {
+                "from": 43100.0,
+                "to": 43400.0
+            },
             "MIS": "All Strikes Allowed"
         },
         "Next Week": {
@@ -27,27 +30,30 @@
     },
     "Nifty": {
         "Current Week": {
-            "NRML": "All Strikes Allowed ",
+            "NRML": {
+                "from": 18550.0,
+                "to": 19050.0
+            },
             "MIS": "All Strikes Allowed"
         },
         "Next Week": {
             "NRML": {
-                "from": 18500.0,
-                "to": 19000.0
+                "from": 18550.0,
+                "to": 19050.0
             },
             "MIS": {
-                "from": 16900.0,
-                "to": 20600.0
+                "from": 16950.0,
+                "to": 20650.0
             }
         },
         "Next Month": {
             "NRML": {
-                "from": 18500.0,
-                "to": 19000.0
+                "from": 18550.0,
+                "to": 19050.0
             },
             "MIS": {
-                "from": 16900.0,
-                "to": 20600.0
+                "from": 16950.0,
+                "to": 20650.0
             }
         }
     },
