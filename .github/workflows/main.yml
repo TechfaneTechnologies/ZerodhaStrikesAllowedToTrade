@@ -8,7 +8,7 @@ on:
       - main
   schedule:
     - cron:  '30 2 * * 1-5'
-    - cron:  '30 14 * * 1-5'
+    - cron:  '27 15 * * 1-5'
 jobs:
   build:
     runs-on: ubuntu-latest
