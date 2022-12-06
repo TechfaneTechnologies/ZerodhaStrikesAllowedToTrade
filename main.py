@@ -147,4 +147,4 @@ if __name__ == "__main__":
         "FinNifty": updateDict(allowedList=fnf_allowed, FinNifty=True),
     }
     with open("StrikesAllowed.json", "w") as jsonFile:
-        jsonFile.write(json.dumps(StrikesAllowed, indent=4))
+        jsonFile.write(json.dumps(StrikesAllowed))
