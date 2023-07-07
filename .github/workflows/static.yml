@@ -8,8 +8,8 @@ on:
   pull_request:
     branches: ["main"]
   schedule:
-    - cron:  '35 2 * * 1-5'
-    - cron:  '33 15 * * 1-5'
+    - cron:  '45 2 * * 1-5'
+    - cron:  '43 15 * * 1-5'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -22,7 +22,7 @@ permissions:
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Single deploy job since we're just deploying
